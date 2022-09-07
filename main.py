@@ -11,10 +11,12 @@ while len(name) == 0:
 print(name + ',', 'я готов выслушать твой вопрос.')
 
 while True:
-    flag = ''
+    flag = ''                                       #Обнуляем флаг иначе не будет выхода из цикла
+    
     answer = input()
     while len(answer) == 0:
         answer = input()
+        
     print()
     print(random.choice(answer_random))
     print()
