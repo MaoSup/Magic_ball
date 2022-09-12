@@ -25,7 +25,7 @@ while True:
     while len(flag) == 0:
         flag = input('y/n or д/н: ')
     
-    if flag == ('y' or 'д'):
+    if flag == 'y' or flag == 'д':
         print('Я готов выслушать твой вопрос. ')
         continue
     else:
